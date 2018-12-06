@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Rate My Plate</title>
+
+</head>
+
+<body>
+  <!-- Jumbotron -->
+  <div class="jumbotron mb-0">
+    <img id='main-logo' src="images/logo.png">
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutUs.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Manager/Chef/Foodie Section -->
+  <div class="container mt-4  customer-container text-center">
+    <div class='card d-inline-block head m-3' style='width: 19rem'>
+      <img src="images/manager.jpg" class="front-pic">
+      <p class="customer-text mt-3"> Customer satisfaction is of the utmost importance for a restaurant manager, and
+        now
+        that I know exactly how my customers feel about our selections, I can work even harder to preserve a high
+        reputation for our guests!"<br><br><em>Mark F.
+        </em></p>
+    </div>
+
+    <div class='card d-inline-block head m-3' style='width: 19rem'>
+      <img src="images/chef.jpg" class="front-pic">
+
+      <p class="customer-text mt-3"> As a chef, I take a great deal of pride in my food. Not only the taste of it, but
+        the
+        texture, presentation and <em>Mouthfeel</em> of each dish. Rate My Plate keeps my staff honest, guaranteeing a
+        quality product every single
+        time." <br><br><em>John G.</em></p>
+
+    </div>
+
+    <div class='card d-inline-block head m-3' style='width: 19rem'>
+      <img src="images/customer.jpg" class="front-pic">
+
+      <p class="customer-text mt-3"> Foodies rejoice! This is the app we've all been waiting for! We can now explore
+        and
+        find the best dishes and drinks around, all at the click of a button. Hmmm, I wonder what spot my friends and I
+        should try next..." <br><br><em>Chehlsee C.</em></p>
+
+    </div>
+
+
+
+
+  </div>
+
+  <!-- Search -->
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-12">
+        <div class="card">
+          <div class="card-header bg-dark text-light">
+            Search for your most recent destination and rate your plate!
+          </div>
+          <div class="card-body">
+            <form id="search-form">
+
+              <div class="form-row">
+                <div class="col-md-6 mb-3">
+                  <label for="keyword">Keyword:</label>
+                  <input type="text" class="form-control" id="keyword" aria-describedby="keyword" placeholder="Sushi, Appetizers, Drinks, Italian">
+                </div>
+
+                <div class="col-md-6 mb-3">
+                  <label for="location">Location:</label>
+                  <input type="text" class="form-control" id="location" aria-describedby="location" placeholder="New York, NY">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="col-md-3 mb-3">
+                  <label for="radius">Radius from location (miles):</label><br>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="radius" id="radius" value="8046.72">
+                    <label class="form-check-label" for="inlineRadio2">5</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="radius" id="radius" value="16093.4">
+                    <label class="form-check-label" for="inlineRadio2">10</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="radius" id="radius" value="24140.2">
+                    <label class="form-check-label" for="inlineRadio2">15</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="radius" id="radius" value="32186.9">
+                    <label class="form-check-label" for="inlineRadio2">20</label>
+                  </div>
+
+                </div>
+
+                <div class="col-md-3 mb-3">
+                  <label for="results-limit">Results Limit:</label><br>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="results" id="results" value="10">
+                    <label class="form-check-label" for="inlineRadio1">10</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="results" id="results" value="20">
+                    <label class="form-check-label" for="inlineRadio2">20</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="results" id="results" value="30">
+                    <label class="form-check-label" for="inlineRadio2">30</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="results" id="results" value="40">
+                    <label class="form-check-label" for="inlineRadio2">40</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="results" id="results" value="50">
+                    <label class="form-check-label" for="inlineRadio2">50</label>
+                  </div>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                  <label for="price">Price:</label><br>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="price" id="price" value="1">
+                    <label class="form-check-label" for="inlineCheckbox1">$</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="price" id="price" value="2">
+                    <label class="form-check-label" for="inlineCheckbox2">$$</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="price" id="price" value="3">
+                    <label class="form-check-label" for="inlineCheckbox1">$$$</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="price" id="price" value="4">
+                    <label class="form-check-label" for="inlineCheckbox2">$$$$</label>
+                  </div>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                  <button type="submit" class="btn btn-block btn-outline-success" id="submit-search">Submit</button>
+                </div>
+
+              </div>
+
+              <div class="row mt-3">
+                <div class="col-12 text-center p-0" id="store-results"></div>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Results Container -->
+  <div class="container text-center mt-4 pt-3" id="review-section"></div>
+
+  <!-- Review Submission Modal -->
+  <div class="modal fade" id="submit-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true">
+  
+  <div class="modal-dialog" role="document">
+    
+    <div class="modal-content">
+      
+      <div class="modal-header">
+        <h5 class="modal-title" id="ex-title">Review Submission</h5>
+        
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <div class="modal-body">
+        
+        <form id="search-form">
+          
+          <div class="form-group">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="submit-item-category" id="submit-item-category"
+              value="food" required>
+              <label class="form-check-label" for="food">Food</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="submit-item-category" id="submit-item-category"
+              value="drink" required>
+              <label class="form-check-label" for="drink">Drink</label>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="submit-item-name">Item Name (As it appears on the menu - if possible):</label>
+            <input type="text" class="form-control" id="submit-item-name" aria-describedby="submit-item-name"
+            placeholder="JD Burger, Shrimp Tempura Roll, Chicken Piccatta Pasta" required>
+          </div>
+          
+          
+          <div class="form-group">
+            <label for="submit-item-description">Detailed Description:</label>
+            <textarea class="form-control" id="submit-item-description" rows="3" placeholder="Ingredients, presentation, history"
+            required></textarea>
+          </div>
+          
+          <div class="form-group">
+            <label for="submit-item-review">Overall Experience:</label>
+            <textarea class="form-control" id="submit-item-review" rows="3" placeholder="Include mouthfeel, taste, aroma, texture, etc."
+            required></textarea>
+          </div>
+          
+          
+          <div class="form-group mb-0">
+            <input id="file-upload" type="file" multiple onchange="processSelectedFiles(this)">
+          </div>
+          
+          <div class="form-group mt-3">
+            <label for="submit-item-rating">Rating:</label><br>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="submit-item-rating" id="submit-item-rating" value="1"
+              required>
+              <label class="form-check-label" for="inlineRadio1">1</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="submit-item-rating" id="submit-item-rating" value="2"
+              required>
+              <label class="form-check-label" for="inlineRadio2">2</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="submit-item-rating" id="submit-item-rating" value="3"
+              required>
+              <label class="form-check-label" for="inlineRadio2">3</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="submit-item-rating" id="submit-item-rating" value="4"
+              required>
+              <label class="form-check-label" for="inlineRadio2">4 (Best)</label>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="mouthfeel-options">Mouthfeel options (Choose 3):<br>
+              <em id="caption">Hold CTRL or CMD to select multiple</em></label>
+              <select multiple class="form-control" id="mouthfeel-options" required>
+                <option value="Salty">Salty</option>
+                <option value="Crunchy">Crunchy</option>
+                <option value="Mild">Mild</option>
+                <option value="Moist">Moist</option>
+                <option value="Tart">Tart</option>
+                <option value="Sweet">Sweet</option>
+                <option value="Bland">Bland</option>
+                <option value="Hot">Hot</option>
+                <option value="Warm">Warm</option>
+                <option value="Savory">Savory</option>
+                <option value="Complex">Complex</option>
+                <option value="Simple">Simple</option>
+                <option value="Strong">Strong</option>
+                <option value="Juicy">Juicy</option>
+                <option value="Sour">Sour</option>
+              </select>
+            </div>
+          </form>
+          
+        </div>
+        
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-block btn-outline-success" data-dismiss="modal" id="submit-item-form">Submit</button>
+          <button type="reset" class="btn btn-block btn-outline-danger mt-0" id="clear-item-form">Clear</button>
+        </div>
+        
+      </div>
+      
+    </div>
+    
+  </div>
+
+  <!-- Extended Card Modal -->
+  <div class="modal fade" id="ex-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="foodTitle"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span id="closeOut" aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container big-card">
+          <div class="row justify-content-center align-items-center">
+            <div class="ex-square m-2" id="ex-food">
+              <img class="ex-img" src="#">
+            </div>
+            <div class="ex-square m-2" id="ex-map">
+              <div id="map"></div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="ex-square-info m-2" id="ex-info"></div>
+            <div class="ex-square m-2" id="ex-store"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="container-fluid footer">
+  <p>Rate My Plate</p>
+  <p>&copy; Copyright 2018</p>
+</div>
+
+  <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-storage.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/js/bootstrap.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFltpLjZxXtL3fdE_GXEVqpJ9S1WCPpaI&callback=initMap"
+    async defer></script>
+  <script src="./js/firebaseReviews.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
