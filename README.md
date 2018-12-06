@@ -28,7 +28,9 @@ To leave a review using *Rate My Plate*, search for the restaurant you visited a
 
 This was my first major project to showcase my skills thus far in basic front-end development. This was also my first app using AJAX to make API calls. Using user input I made API requests to the YELP API in order to search for restaurants based on keyword, location, distance and price range. I then used the Google Maps Navigation API to show a mini-map of the area where the restaurant is located based on the latitude and logitude given by the Yelp API.
 
-Another skill I gained through building this app was the ability for elements to carry data throughout the app using *data-target* attributes which allowed for the descriptions and ratings to remain with the review throughout the app. A prospective improvement is to build a back-end to support Full Stack capabilities. 
+Another skill I gained through building this app was the ability for elements to carry data throughout the app using *data-target* attributes which allowed for the descriptions and ratings to remain with the review throughout the app. A prospective improvement is to build a back-end to support Full Stack capabilities.
+
+Although a small component of the app but worth mentioning was the use of Bootstrap Modals. They are a great tool for setting HTML
 
 
 ## Technologies Used
@@ -55,6 +57,9 @@ Another skill I gained through building this app was the ability for elements to
 
 ### During Gameplay
 ![During Gameplay](images/screenshot4.png)
+
+### During Gameplay
+![During Gameplay](images/screenshot5.png)
 
 
 ## Prospective Improvememts
