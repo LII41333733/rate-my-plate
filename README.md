@@ -59,18 +59,18 @@ Although a small component of the app but worth mentioning was the use of Bootst
 ### Restaurant Search
 ![Restaurant Search](images/screenshot3.png)
 
-### Sample Review (Bootstrap Modal)
+### Review Form (Bootstrap Modal)
+![Review Form](images/screenshot6.png)
+
+### Sample Review Collection
 ![Sample Review](images/screenshot4.png)
 
-### During Gameplay
-![During Gameplay](images/screenshot5.png)
-
-### Review Form (Bootstrap Modal)
-![Review Form](images/screenshot5.png)
+### Sample Review (Bootstrap Modal)
+![Sample Review](images/screenshot5.png)
 
 
 ## Prospective Improvememts
 
-* Using a database to build a back-end to support review and restaurant data
+* Using a back-end database such as mySQL or MongoDB to support review and restaurant data
 * Authentication and login, to associate reviews with their author user
 * Developing this to be a flagship app where partners are involved and it becomes a means for restaurant managers to better gauge customer feedback on their items and also patrons to better access the items they want on a more specific basis.
