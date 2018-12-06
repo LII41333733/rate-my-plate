@@ -1,4 +1,4 @@
-# Rate My Plate **An App for your Appetite**
+# Rate My Plate (\*\*An App for your Appetite\*\*)
 
 [Link to the App](https://lii41333733.github.io/rate-my-plate/)
 
