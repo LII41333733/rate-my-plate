@@ -28,9 +28,11 @@ To leave a review using *Rate My Plate*, search for the restaurant you visited a
 
 This was my first major project to showcase my skills thus far in basic front-end development. This was also my first app using AJAX to make API calls. Using user input I made API requests to the YELP API in order to search for restaurants based on keyword, location, distance and price range. I then used the Google Maps Navigation API to show a mini-map of the area where the restaurant is located based on the latitude and logitude given by the Yelp API.
 
-Another skill I gained through building this app was the ability for elements to carry data throughout the app using *data-target* attributes which allowed for the descriptions and ratings to remain with the review throughout the app. A prospective improvement is to build a back-end to support Full Stack capabilities.
+Another new technology for me was the use of Google's Firebase Cloud API for data persistence. Since I have not yet studied back-end, Firebase Database was a great tool to use for the means of storing review data to be called upon anywhere I need in the app. Firebase was useful not only for the specific review data, but for storing the photos from user reviews. Firebase Storage allowed me to upload the review photo for which I was returned a url to access the photo as a source.
 
-Although a small component of the app but worth mentioning was the use of Bootstrap Modals. They are a great tool for setting HTML
+An additional tool I learned to use through building this app was the ability for elements to carry data throughout the app using *data-target* attributes which allowed for the descriptions and ratings to remain with the review throughout the app. A prospective improvement is to build a back-end to support Full Stack capabilities.
+
+Although a small component of the app but worth mentioning was the use of Bootstrap Modals. They are a great tool for setting HTML off the page in order to use for forms that you do not want embedded in the page, or a display option to show quick information.
 
 
 ## Technologies Used
@@ -42,27 +44,33 @@ Although a small component of the app but worth mentioning was the use of Bootst
 * AJAX
 * Yelp API
 * Google API
+* Firebase Cloud API - Database
+* Firebase Cloud API - Storage
 
 
 ## Screenshots
 
-### At Game Start
-![At Game Start](images/screenshot1.png)
+### Main Banner
+![Main Banner](images/screenshot1.png)
 
-### During Gameplay
-![During Gameplay](images/screenshot2.png)
+### For the Manager, Chef and Patron
+![For the Manager, Chef and Patron](images/screenshot2.png)
 
-### At Game Start
-![At Game Start](images/screenshot3.png)
+### Restaurant Search
+![Restaurant Search](images/screenshot3.png)
 
-### During Gameplay
-![During Gameplay](images/screenshot4.png)
+### Sample Review (Bootstrap Modal)
+![Sample Review](images/screenshot4.png)
 
 ### During Gameplay
 ![During Gameplay](images/screenshot5.png)
+
+### Review Form (Bootstrap Modal)
+![Review Form](images/screenshot5.png)
 
 
 ## Prospective Improvememts
 
 * Using a database to build a back-end to support review and restaurant data
+* Authentication and login, to associate reviews with their author user
 * Developing this to be a flagship app where partners are involved and it becomes a means for restaurant managers to better gauge customer feedback on their items and also patrons to better access the items they want on a more specific basis.
