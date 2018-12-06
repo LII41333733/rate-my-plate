@@ -45,16 +45,16 @@ Another skill I gained through building this app was the ability for elements to
 ## Screenshots
 
 ### At Game Start
-![At Game Start](assets/images/screenshot1.png)
+![At Game Start](images/screenshot1.png)
 
 ### During Gameplay
-![During Gameplay](assets/images/screenshot2.png)
+![During Gameplay](images/screenshot2.png)
 
 ### At Game Start
-![At Game Start](assets/images/screenshot3.png)
+![At Game Start](images/screenshot3.png)
 
 ### During Gameplay
-![During Gameplay](assets/images/screenshot4.png)
+![During Gameplay](images/screenshot4.png)
 
 
 ## Prospective Improvememts
