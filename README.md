@@ -9,7 +9,7 @@ Have you ever had a taste for a particular entree or drink and wanted to search 
 
 *Search no more!* 
 
-*Rate My Plate* is a review app that tailors critique to not be of the restaurant as a whole, but of their items specifically. Sure, Yelp and Google Reviews are the go-to spot for restaurant reviews, but they tend to be too objective and less focused on the actual items themselves. Patrons may give their opinion on a dish, but unless you go digging through a bunch of reviews and comments to find the particular opinion you are looking for (*if it even exists*), how would you ever know that there is a restaurant nearby that has an awesome Shrimp Tempura Roll or a delectable Cosmo that is to absolutely die for?
+*Rate My Plate* is a review app that tailors critique to not be of the restaurant as a whole, but of their food and beverage items specifically. Sure, Yelp and Google Reviews are the go-to spot for restaurant reviews, but they tend to be too objective and less focused on the actual items themselves. Patrons may give their opinion on a dish, but unless you go digging through a bunch of reviews and comments to find the particular opinion you are looking for (*if it even exists*), how would you ever know that there is a restaurant nearby that has an awesome Shrimp Tempura Roll or a delectable Cosmo that is to absolutely die for?
 
 To find reviews on an item using *Rate My Plate*, first search for the entree or drink you would like to find reviews on as well as the distance you are willing to travel for the item. The app will return reviews from restaurants in that area that users have left in *Rate My Plate* based on the keywords entered.
 
